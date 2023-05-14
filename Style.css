@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Commissioner:wght@100&display=swap');
+
+h1,h2,h3,h4,h5,h6,p,a,button,li,ul,select,input{
+    font-family:'Commissioner', sans-serif;
+}
+
+a{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(92, 90, 90);
+}
+
+.nav-bar{
+    display: flex;
+    background-color: #fff;
+    padding: 0px;
+}
+
+.nav-bar li {
+    display: inline-block;
+    margin-left: 100px;
+    /* margin-top: 15px; */
+    
+}
+
+.nav-bar ul {
+    /* display: inline-block; */
+    margin-left: 20%;
+    margin-top: 30px;
+
+    
+}
+
+.nav-bar img {
+    /* display:grid; */
+    width: 80px;
+    margin-left: 20px;
+}
+
+.banner-home{
+    padding-top: 24px;
+    padding-bottom: 24px;
+    display:contents ;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.banner-home img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    
+}
+
+.content-banner{
+    position: absolute;
+    z-index: 20;
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.content-banner h1 {
+   color: #eaeaea;
+   font-size: 45px;
+   text-transform: uppercase;
+   letter-spacing: 10px;
+   font-weight: bold;
+}
+
+.content-banner p {
+    color: #eaeaea;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    font-weight: 900;
+ }
+ 
+ 
+ .input-group input{
+     border: 1px solid #eaeaea;
+     min-width: 150px;
+     min-height: 50px;
+     padding: 0 1rem;
+    color: #000;
+    font-size: 15px;
+    background-color: transparent;
+    color: #fff;
+ }
+
+ .input-group button{
+        min-height: 50px;
+        padding: .5em 1em;
+        border: none;
+        border-radius: 0 6px 6px 0;
+        background-color: #9BB458;
+        color: #fff;
+        font-size: 15px;
+        cursor: pointer;
+        transition: background-color .3s ease-in-out;
+      }
+      
+      button:hover {
+        background-color: #8da649;
+      }
+
+.rowContent::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colmn{
+    width: 50%;
+    float: left;
+}
+
+.rowPlantContant::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.colm1-rowContant{
+    width: 30%;
+    float: left;
+}
+
+.colm2-rowContant{
+    width: 70%;
+    float: left;
+}
+
+iframe{
+    width: 700px;
+    height: 400px;
+}
